@@ -158,6 +158,8 @@ ens indiqui el sensor de la brúixola:
 
 > Què hauríem de fer per pintar més direccions de la fletxa?
 
+> Com podriem fer per no tenir tantes condicions niades? (mirau l'icona de la rodeta)
+
 Patata calenta \[Nombres aleatoris\]
 ====================================
 
@@ -173,8 +175,6 @@ valor de la patata mostrarem una imatge o una altra:
 Per jugar, podeu connectar la micro:bit a les bateries i així vos podreu passar la patata entre molta gent.
 
 > Com fem al programa que la patata surti menys vegades que les fletxes?
-
-> Com podriem fer per no tenir tantes condicions niades? (mirau l'icona de la rodeta)
 
 Tria el següent \[Nombres aleatoris\]
 =====================================
@@ -194,3 +194,5 @@ La micro:bit pot fer música i té un sensor de llum. Prova a utilitzar els valo
 
 Aquí teniu un exemple de codi:
 ![musica de llum](./media/image18.png)
+
+> Nota: per que soni necessitareu connectar un altaveu al connector 0 i a GND.
