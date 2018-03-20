@@ -9,8 +9,7 @@ Blocs bàsics
 ============
 
 Els dos blocs bàsics de programació de la **micro:bit** son la
-“*seqüència d’inici”* el bucle *“per sempre”*. Normalment els trobaràs
-quan comencis un programa, però també els pots trobar al menú
+“*seqüència d’inici”* i el bucle *“per sempre”*. Normalment els trobaràs quan comencis un programa, però també els pots trobar al menú
 *“Básico”*:
 
 ![Menu Básico](./media/media/image1.png)
