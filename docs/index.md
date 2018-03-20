@@ -13,22 +13,19 @@ Els dos blocs bàsics de programació de la **micro:bit** son la
 quan comencis un programa, però també els pots trobar al menú
 *“Básico”*:
 
-![](./media/media/image1.png){width="5.908333333333333in"
-height="6.172916666666667in"}
+![Menu Básico](./media/media/image1.png)
 
 El bloc d’inici ens serveix per dir-li a la **micro:bit** què ha de fer
 la primera vegada que s’encengui. Aquí dibuixem una cara quan s’encén la
 micro:bit:
 
-![](./media/media/image2.png){width="2.4722222222222223in"
-height="2.388888888888889in"}
+![Bloc inici](./media/media/image2.png)
 
 El bloc “per sempre” fa un bucle infinit. És a dir, mentre la micro:bit
 estigui encesa executarà tots els blocs que hi hagi a dins. Ara dibuixem
 dues cares que es repetiran “per sempre”:
 
-![](./media/media/image2.png){width="2.361111111111111in"
-height="3.7430555555555554in"}
+![Bloc per sempre](./media/media/image2.png)
 
 Provar el programa
 ==================
@@ -39,8 +36,7 @@ A l’ordinador
 A l’esquerra teniu un simulador de la micro:bit perquè pugueu provar com
 funciona el programa que heu fet:
 
-![](./media/media/image3.png){width="5.908333333333333in"
-height="4.846527777777778in"}
+![Simulador](./media/media/image3.png)
 
 A la micro:bit
 --------------
@@ -48,8 +44,7 @@ A la micro:bit
 Una vegada ho heu provat, podeu descarregar el programa a la micro:bit
 per poder-lo utilitzar amb el botó de descàrrega.
 
-![](./media/media/image4.png){width="5.354166666666667in"
-height="0.9791666666666666in"}
+![Descarregar a la micro:bit](./media/media/image4.png)
 
 Una vegada descarregat el programa que heu fet, l’haureu de copiar a la
 micro:bit, la podreu trobar com un disc del sistema.
@@ -62,8 +57,7 @@ quan pitgem els botons tenim un bloc al que li podem dir què ha de fer
 per cada botó. Es diu “al presionarse el botón”. Podem aprofitar les
 cares que hem dissenyat abans:
 
-![](./media/media/image5.png){width="5.908333333333333in"
-height="3.2111111111111112in"}
+![Smileys](./media/media/image5.png)
 
 Extra – bucles
 --------------
@@ -71,8 +65,7 @@ Extra – bucles
 Per fer més interessant l’acció de pitjar dos botons, afegirem un bucle
 (parescut al “para siempre”), però en aquest cas es diu “mientras”:
 
-![](./media/media/image6.png){width="2.173611111111111in"
-height="2.934375546806649in"}
+![Smiley amb bucles](./media/media/image6.png)
 
 Rotació \[Condicionals\]
 ========================
@@ -88,8 +81,7 @@ condició que ha de ser veritat o falsa. Segons el que es compleixi a la
 condició farà una cosa o una altra. Així que mirarem si la rotació es
 major o menor que 0 per dibuixar un gràfic:
 
-![](./media/media/image7.png){width="5.895833333333333in"
-height="5.552083333333333in"}
+![Rotació](./media/media/image7.png)
 
 Descobreix l’equip \[Enviament de missatges\]
 =============================================
@@ -102,20 +94,17 @@ puguin descobrir qui sou.
 El primer que farem és dir-li a la micro:bit a quin grup voleu
 participar (trieu un nombre del 1 al 3, per exemple):
 
-![](./media/media/image8.png){width="4.864583333333333in"
-height="1.8020833333333333in"}
+![Sel·lecció de grup](./media/media/image8.png)
 
 Després envieu un missatge a la ràdio quan pitgeu el botó A:
 
-![](./media/media/image9.png){width="5.908333333333333in"
-height="1.2743055555555556in"}
+![Enviar missatge per ràdio](./media/media/image9.png)
 
 I per poder rebre els missatges, teniu al menú de ràdio un bloc per quan
 rebeu el missatge. Al menú variables trobareu la variable que necessiteu
 mostrar (aquí es diu receivedString):
 
-![](./media/media/image10.png){width="5.908333333333333in"
-height="2.033333333333333in"}
+![Rebre missatges](./media/media/image10.png)
 
 La bolleta \[Operacions matemàtiques\]
 ======================================
@@ -131,10 +120,9 @@ rotació als dos eixos per pintar un puntet, però haurem de dividir el
 valor de rotació per reduir la precisió de la rotació i fer el joc més
 fàcil:
 
-![](./media/media/image11.png){width="5.908333333333333in"
-height="3.582638888888889in"}
+![La bolleta](./media/media/image11.png)
 
-Perquè creus que fa falta invertir el puntet enlloc de només pintar-lo?
+> Perquè creus que fa falta invertir el puntet enlloc de només pintar-lo?
 
 Interruptor de contacte \[Pins\]
 ================================
@@ -142,23 +130,19 @@ Interruptor de contacte \[Pins\]
 A més dels botons podem utilitzar els pins de contacte que té la
 micro:bit a la part d’a baix
 
-![](./media/media/image12.png){width="4.013888888888889in"
-height="0.9949803149606299in"}
+![Connectors de la micro:bit](./media/media/image12.png)
 
 Aquests pins detecten un tancament de circuit entre el 0, 1 ò 2 i la
 terra (GND). Si connectem 0 a un tros de paper d’alumini amb un cable
-amb cocodril i el GND amb un altre cable i una bolleta d’alumini com als
-del dibuix:
+amb cocodril i el GND amb un altre cable i una bolleta d’alumini com als del dibuix:
 
-![](./media/media/image13.png){width="4.027777777777778in"
-height="2.422442038495188in"}
+![Paper d'alumini](./media/media/image13.png)
 
 Amb aquest programa podrem fer un interruptor de contacte:
 
-![](./media/media/image14.png){width="2.173611111111111in"
-height="2.779529746281715in"}
+![Programa interruptor](./media/media/image14.png)
 
-Perquè serveix canviar el valor de *“llum”* cada vegada?
+> Perquè serveix canviar el valor de *“llum”* cada vegada?
 
 Brúixola \[Condicionals niats\]
 ===============================
@@ -169,10 +153,9 @@ obtindrem la direcció de la brúixola i després utilitzarem uns quants
 blocs condicionals niats per fer un dibuix o un altre depenent del que
 ens indiqui el sensor de la brúixola:
 
-![](./media/media/image15.png){width="5.908333333333333in"
-height="6.254166666666666in"}
+![Programa Brúixola](./media/media/image15.png)
 
-Què hauríem de fer per pintar més direccions de la fletxa?
+> Què hauríem de fer per pintar més direccions de la fletxa?
 
 Patata calenta \[Nombres aleatoris\]
 ====================================
@@ -184,11 +167,11 @@ nombres aleatoris. La configurarem per que ens doni un nombre de 0 a 10
 i la ficarem dins d’una variable anomenada “patata”. Després, segons el
 valor de la patata mostrarem una imatge o una altra:
 
-![](./media/media/image16.png){width="4.813540026246719in"
-height="6.402777777777778in"}
+![Programa patata calenta](./media/media/image16.png)
 
-Per jugar, podeu connectar la micro:bit a les bateries i així vos podreu
-passar la patata entre molta gent.
+Per jugar, podeu connectar la micro:bit a les bateries i així vos podreu passar la patata entre molta gent.
+
+> Com fem al programa que la patata surti menys vegades que les fletxes?
 
 Tria el següent \[Nombres aleatoris\]
 =====================================
@@ -196,9 +179,8 @@ Tria el següent \[Nombres aleatoris\]
 Aquest joc mostra una fletxa que gira i s’atura a un punt de forma
 aleatòria.
 
-![](./media/media/image17.png){width="5.908333333333333in"
-height="3.5618055555555554in"}
+![](./media/media/image17.png)
 
-Què fa el bloc “cambiar”?
+> Què fa el bloc “cambiar”?
 
-Com fem que la xifra “direcció” no es faci més gran que 4?
+> Com fem que la xifra “direcció” no es faci més gran que 4?
