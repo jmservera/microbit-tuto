@@ -58,13 +58,15 @@ cares que hem dissenyat abans:
 
 ![Smileys](./media/media/image5.png)
 
-Extra – bucles
+I ara amb bucles (repeticions)
 --------------
 
 Per fer més interessant l’acció de pitjar dos botons, afegirem un bucle
 (parescut al “para siempre”), però en aquest cas es diu “mientras”:
 
 ![Smiley amb bucles](./media/media/image6.png)
+
+> Què penses que deu fer la opció "verdadero"?
 
 Rotació \[Condicionals\]
 ========================
@@ -99,11 +101,11 @@ Després envieu un missatge a la ràdio quan pitgeu el botó A:
 
 ![Enviar missatge per ràdio](./media/media/image9.png)
 
-I per poder rebre els missatges, teniu al menú de ràdio un bloc per quan
-rebeu el missatge. Al menú variables trobareu la variable que necessiteu
-mostrar (aquí es diu receivedString):
+I per poder rebre els missatges, teniu al menú de ràdio un bloc per quan rebeu el missatge. Al menú variables trobareu la variable que necessiteu mostrar (aquí es diu *receivedString*):
 
 ![Rebre missatges](./media/media/image10.png)
+
+> Com podriem fer per enviar diferents missatges des de la mateixa micro:bit?
 
 La bolleta \[Operacions matemàtiques\]
 ======================================
@@ -121,23 +123,23 @@ fàcil:
 
 ![La bolleta](./media/media/image11.png)
 
-> Perquè creus que fa falta invertir el puntet enlloc de només pintar-lo?
+> Perquè creus que fa falta invertir el puntet enlloc de només pintar-lo? Has provat a utilitzar la opció *"graficar"*?
 
 Interruptor de contacte \[Pins\]
 ================================
 
 A més dels botons podem utilitzar els pins de contacte que té la
-micro:bit a la part d’a baix
+micro:bit a la part d’a baix:
 
 ![Connectors de la micro:bit](./media/media/image12.png)
 
 Aquests pins detecten un tancament de circuit entre el 0, 1 ò 2 i la
-terra (GND). Si connectem 0 a un tros de paper d’alumini amb un cable
-amb cocodril i el GND amb un altre cable i una bolleta d’alumini com als del dibuix:
+terra (GND). 
+Per aquest exercici, connectarem el connector 0 a un tros de paper d’alumini amb un cable amb **cocodril** i el *GND* amb un altre cable i una bolleta d’alumini com als del dibuix:
 
 ![Paper d'alumini](./media/media/image13.png)
 
-Amb aquest programa podrem fer un interruptor de contacte:
+Amb aquest programa podrem fer que s'encengui la pantalla amb un interruptor de contacte:
 
 ![Programa interruptor](./media/media/image14.png)
 
