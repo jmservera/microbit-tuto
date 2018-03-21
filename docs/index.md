@@ -24,7 +24,7 @@ El bloc “per sempre” fa un bucle infinit. És a dir, mentre la micro:bit
 estigui encesa executarà tots els blocs que hi hagi a dins. Ara dibuixem
 dues cares que es repetiran “per sempre”:
 
-![Bloc per sempre](./media/image2.png)
+![Bloc per sempre](./media/image2b.png)
 
 Provar el programa
 ==================
