@@ -62,7 +62,7 @@ I ara amb bucles (repeticions)
 --------------
 
 Per fer més interessant l’acció de pitjar dos botons, afegirem un bucle
-(parescut al “para siempre”), però en aquest cas es diu “mientras”:
+(paregut al “para siempre”), però en aquest cas es diu “mientras”:
 
 ![Smiley amb bucles](./media/image6.png)
 
@@ -95,7 +95,7 @@ puguin descobrir qui sou.
 El primer que farem és dir-li a la micro:bit a quin grup voleu
 participar (trieu un nombre del 1 al 3, per exemple):
 
-![Sel·lecció de grup](./media/image8.png)
+![Selecció de grup](./media/image8.png)
 
 Després envieu un missatge a la ràdio quan pitgeu el botó A:
 
@@ -105,7 +105,7 @@ I per poder rebre els missatges, teniu al menú de ràdio un bloc per quan rebeu
 
 ![Rebre missatges](./media/image10.png)
 
-> Com podriem fer per enviar diferents missatges des de la mateixa micro:bit?
+> Com podríem fer per enviar diferents missatges des de la mateixa micro:bit?
 
 La bolleta \[Operacions matemàtiques\]
 ======================================
@@ -158,7 +158,7 @@ ens indiqui el sensor de la brúixola:
 
 > Què hauríem de fer per pintar més direccions de la fletxa?
 
-> Com podriem fer per no tenir tantes condicions niades? (mirau l'icona de la rodeta)
+> Com podríem fer per no tenir tantes condicions niades? (mireu la icona de la rodeta)
 
 Patata calenta \[Nombres aleatoris\]
 ====================================
